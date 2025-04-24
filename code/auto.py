@@ -1,9 +1,17 @@
 # Webscraping (mercadolivre) 
+from bs4 import BeautifulSoup 
+import pandas as pd 
+import numpy as np 
+import requests 
+import re 
+
 
 class Webscraping:
     def __init__(self):
         pass 
 
     def mercadolivre(self):
-        pass 
+        url_mercado = 'https://www.mercadolivre.com.br/' 
+        response = requests.get(url_mercado) 
+        soup = BeautifulSoup(response.text,'html.parser') 
 
