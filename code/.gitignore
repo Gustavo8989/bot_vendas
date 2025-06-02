@@ -1,4 +1,4 @@
-auth.env
 auth.txt 
+api_key.txt
 key_api_finnhub.txt
-api_key.txt 
+auth.env
